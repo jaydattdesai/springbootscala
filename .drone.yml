@@ -4,6 +4,6 @@ workspace:
   base: /springbootscala
   path: "https://github.com/jaydattdesai/springbootscala"
 steps:
-- name: greeting
+- name: run
   commands:
     - ./gradlew bootRun
