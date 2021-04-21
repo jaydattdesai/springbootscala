@@ -3,3 +3,7 @@ name: default
 workspace:
   base: /springbootscala
   path: 'https://github.com/jaydattdesai/springbootscala'
+steps:
+- name: greeting
+  commands:
+  - echo hello world
