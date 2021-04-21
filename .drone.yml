@@ -8,4 +8,4 @@ workspace:
 steps:
   - name: run
     commands:
-      echo hello world
+     -  echo hello world
