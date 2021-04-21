@@ -5,3 +5,7 @@ workspace:
   base: /springbootscala
   path: https://github.com/jaydattdesai/springbootscala
   
+steps:
+  - name: run
+    commands:
+      echo hello world
