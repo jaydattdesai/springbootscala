@@ -6,4 +6,4 @@ workspace:
 steps:
 - name: greeting
   commands:
-  - ./gradlew bootRun
+    - ./gradlew bootRun
