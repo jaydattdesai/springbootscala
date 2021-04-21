@@ -6,7 +6,7 @@ workspace:
   path: https://github.com/jaydattdesai/springbootscala
   
 steps:
-  - name: test
+  - name: run
     image: springbootscala
     commands:
-      - ./gradlew test
+      - ./gradlew bootRun
