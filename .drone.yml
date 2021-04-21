@@ -7,6 +7,5 @@ workspace:
   
 steps:
   - name: run
-    image: springbootscala
     commands:
       - ./gradlew bootRun
