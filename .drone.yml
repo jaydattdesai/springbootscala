@@ -1,11 +1,9 @@
 kind: pipeline
 name: default
-
 workspace:
   base: /springbootscala
-  path: https://github.com/jaydattdesai/springbootscala
-  
+  path: 'https://github.com/jaydattdesai/springbootscala'
 steps:
   - name: run
     commands:
-     -  echo hello world
+      - echo hello world
